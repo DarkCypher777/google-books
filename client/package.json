@@ -1,7 +1,6 @@
 {
-  "name": "google-books",
+  "name": "client",
   "version": "1.0.0",
-  "description": "",
   "private": true,
   "proxy": "http://localhost:3001",
   "dependencies": {
@@ -12,8 +11,6 @@
     "react-scripts": "^3.2.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
